@@ -29,7 +29,7 @@ def get_filters():
             else:
                 print('Please inter correct value')
          except ValueError:
-            print('Input not valid')
+            print('This input is not valid')
             
 
     # TO DO: get user input for month (all, january, february, ... , june)
