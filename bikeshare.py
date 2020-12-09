@@ -197,7 +197,8 @@ def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-        #print(df.head())
+        print("This is the first few rows of the dataset")
+        print(df.head())
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
